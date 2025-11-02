@@ -25,11 +25,6 @@ app.use(
 // لقبول بيانات json
 app.use(express.json());
 
-// مسار اختبار بسيط
-app.get("/", (req, res) => {
-  res.send("API is running...");
-});
-
 // مسارات المستخدم
 app.use("/api/users", userRoutes);
 

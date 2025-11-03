@@ -6,6 +6,10 @@ import vueDevTools from "vite-plugin-vue-devtools";
 
 // https://vite.dev/config/
 export default defineConfig({
+  // 👇 قم بإضافة هذا السطر
+  base: "/",
+  // 👆
+
   plugins: [
     vue(),
     // vueDevTools()
